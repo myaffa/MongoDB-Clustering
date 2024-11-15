@@ -120,6 +120,8 @@ Run the following command to start the MongoDB cluster:
 ```bash
 docker-compose up -d
 ```
+![docker up](images/docker_up.png)
+
 
 ---
 
