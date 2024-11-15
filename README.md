@@ -148,6 +148,8 @@ Run the following command to list running containers:
 ```bash
 docker ps
 ```
+![docker ps](images/docker_ps.png)
+
 
 Find the `CONTAINER ID` of the primary MongoDB container.
 
@@ -160,6 +162,7 @@ docker exec -it <CONTAINER_ID> bash
 ```bash
 mongosh -u root -p password-test
 ```
+![login_mongo](images/login_mongo.png)
 
 ### 4. Initialize Replica Set
 Run the following command in the MongoDB shell:
@@ -175,7 +178,11 @@ rs.initiate(
   }
 )
 ```
+![setup_rs0](images/setup_rs0.png)
+
+
 **Note:** You can see the general status of the database with the rs.status() command.
+![status](images/status.png)
 
 **Note:** Adjust the IP addresses and ports according to your setup.
 
