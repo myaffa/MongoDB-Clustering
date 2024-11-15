@@ -104,6 +104,7 @@ MONGO_PORT=27017
 
 # If you don't want to use three servers. Activate this section on one of the servers
 HIDDEN_PORT=27018
+
 MONGO_KEYFILE_PATH=/data/configdb/mongo-keyfile
 ```
 
@@ -172,6 +173,7 @@ rs.initiate(
   }
 )
 ```
+**Note:** You can see the general status of the database with the rs.status() command.
 
 **Note:** Adjust the IP addresses and ports according to your setup.
 
