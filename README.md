@@ -50,8 +50,6 @@ Inside the `mongoCluster` directory, create the following files:
 
 #### `docker-compose.yml`
 ```yaml
-version: '3.1'
-
 services:
   mongo:
     image: mongo
@@ -78,6 +76,7 @@ services:
     depends_on:
       - mongo
 
+  # If you don't want to use three servers. Activate this section on one of the servers
   mongo-hidden:
     image: mongo
     restart: always
@@ -102,6 +101,8 @@ MONGO_INITDB_ROOT_USERNAME=root
 MONGO_INITDB_ROOT_PASSWORD=password-test
 REPLSET_NAME=rs0
 MONGO_PORT=27017
+
+# If you don't want to use three servers. Activate this section on one of the servers
 HIDDEN_PORT=27018
 MONGO_KEYFILE_PATH=/data/configdb/mongo-keyfile
 ```
