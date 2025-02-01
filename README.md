@@ -1,6 +1,6 @@
 # MongoDB Clustering with Docker
 
-## Table of Contents
+## Contents
 1. [Introduction](#introduction)
 2. [Requirements](#requirements)
 3. [Setup Primary Server](#setup-primary-server)
