@@ -189,3 +189,16 @@ rs.initiate(
 ---
 
 Now your MongoDB cluster is up and running with high availability and fault tolerance.
+
+### Author
+
+[Kambiz Shahriarynasab]\
+[[saiprogrammerk@gmail.com](mailto:saiprogrammerk@gmail.com)]\
+[[https://t.me/pr_kami](https://t.me/pr_kami)]\
+[https://www.instagram.com/pr.kami.sh/]\
+[[https://www.youtube.com/channel/UCqjjdsFRXliDa7K612BZtmA](https://www.youtube.com/channel/UCqjjdsFRXliDa7K612BZtmA)]\
+[https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile]
+
+#### Disclaimer
+The author of this project assumes no responsibility for any issues, damages, or losses that may arise from the use of this code. The project is provided "as is" without any warranties, including but not limited to functionality, security, or suitability for a particular purpose. Users should thoroughly test and verify the implementation in their own environments before deploying it in production.
+
